@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "076cbe2b-0bcf-4790-bc91-532bc1f384b3",
+  "alias": "AccordianWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "title": { "default": "Accordian" },
+    "description": { "default": "Accordian SPFX webpart working with property pane" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Accordian"
+    }
+  }]
+}
